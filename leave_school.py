@@ -42,7 +42,7 @@ time.sleep(1)
 js = "document.getElementById('rqlscx').removeAttribute('readonly')"
 browser.execute_script(js)
 browser.find_element_by_xpath("/html/body/div[1]/div/div[12]/div[2]/input").send_keys(date_string)  # 填写日期
-browser.find_element_by_xpath("/html/body/div[1]/div/div[15]/textarea").send_keys("午饭晚饭西门外吃饭")  # 出校理由
+browser.find_element_by_xpath("/html/body/div[1]/div/div[15]/textarea").send_keys("护军街")  # 出校理由
 browser.find_element_by_xpath("/html/body/div[3]/div[1]/input").click()  # 勾选一堆东西
 browser.find_element_by_xpath("/html/body/div[3]/div[2]/input").click()
 browser.find_element_by_xpath("/html/body/div[3]/div[3]/input").click()
